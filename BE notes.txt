@@ -1,0 +1,14 @@
+API framework: gin
+entity framework: ent
+
+
+Base project structure: gin
+Database versioning (DDL and DML  - flyway): ent
+Buildable via the appropriate build tool (Maven, NuGet): go-task (not confirmed)
+Per Environment configuration (dev, test, prod): gin (not confirmed)
+Docker image generation: Write docker file (not confirmer)
+Health API: (need clearing)
+Telemetry and logging: go.opentelemetry.io
+OpenAPI Spec: gin-swagger
+Test automation (Unit and integration testing) capabilities: ? 
+Stylecheck (UTF-8, EndLine, Tabs vs 4 spaces, etc…): ??
